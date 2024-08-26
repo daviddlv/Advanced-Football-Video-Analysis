@@ -10,7 +10,7 @@ from speed_and_distance_estimator import SpeedAndDistanceEstimator
 
 def main():
     # read the video
-    model_path ='models/Soccer_YoloV5/best.pt'
+    model_path ='models/best.pt'
     input_video_path = 'input_videos/08fd33_4.mp4'
     output_video_path = 'output_videos/output.avi'
     video_frames = read_video(input_video_path)
